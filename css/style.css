@@ -1,5 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: var(--bg_color);
+    .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+a{
+    color: var(--hero_color);
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
+}
+:root{
+    --bg_color: #000000;
+    --hero_color: #87C232;
+    --text_color: #ffffff;
+}
+/* font-family: "Quicksand", sans-serif; */
+/* font-family: "Montserrat", sans-serif; */
