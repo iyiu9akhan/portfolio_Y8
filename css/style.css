@@ -35,9 +35,10 @@ li {
     width: 200px;
     height: 42px;
   }
-  .middle .menu{
+  .middle .menu {
     display: flex;
     gap: 67px;
+    justify-content: space-between;
   }
 }
 /* header section css ends here  */
