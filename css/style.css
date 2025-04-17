@@ -20,6 +20,7 @@ a {
 ul,
 li {
   list-style-type: none;
+  margin: 0;
 }
 :root {
   --bg_color: #000000;
@@ -32,18 +33,24 @@ li {
 #header {
   padding: 30px 0 60px;
 
-  .header_logo {
-    width: 200px;
+  .left {
     height: 42px;
+    .header_logo {
+      width: 200px;
+    }
   }
   .middle {
     height: 62px;
     .menu {
-        display: flex;
-        gap: 67px;
-        justify-content: space-between;
-      }
+      display: flex;
+      gap: 67px;
+      justify-content: space-between;
+      height: 100%;
+      align-items: center;
+    }
   }
-   
+  .right{
+    height: 50px;
+  }
 }
 /* header section css ends here  */
