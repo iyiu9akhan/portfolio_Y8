@@ -31,14 +31,19 @@ li {
 /* header section css starts here  */
 #header {
   padding: 30px 0 60px;
+
   .header_logo {
     width: 200px;
     height: 42px;
   }
-  .middle .menu {
-    display: flex;
-    gap: 67px;
-    justify-content: space-between;
+  .middle {
+    height: 62px;
+    .menu {
+        display: flex;
+        gap: 67px;
+        justify-content: space-between;
+      }
   }
+   
 }
 /* header section css ends here  */
