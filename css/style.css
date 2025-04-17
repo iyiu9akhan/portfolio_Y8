@@ -21,12 +21,14 @@ ul,
 li {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 :root {
   --bg_color: #000000;
   --hero_color: #87c232;
   --text_color: #ffffff;
   --link_color: #0000ff;
+  --white_10prcnt: rgba(255, 255, 255, 0.1)
 }
 
 /* header section css starts here  */
@@ -41,12 +43,15 @@ li {
   }
   .middle {
     /* height: 62px; */
+    background-color: var(--white_10prcnt);
+    border-radius: 33px;
+    padding: 20px 40px;
     .menu {
       display: flex;
-      gap: 67px;
+      /* gap: 67px; */
       justify-content: space-between;
-      height: 100%;
-      align-items: center;
+      /* height: 100%; */
+      /* align-items: center; */
       li {
         color: var(--text_color);
         text-transform: capitalize;
