@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   background-color: var(--bg_color);
   .container {
@@ -177,6 +178,49 @@ li {
         &:first-letter {
           text-transform: uppercase;
         }
+      }
+    }
+  }
+  .bottom {
+    .child {
+      position: relative;
+      background-color: #87c232;
+      height: 450px;
+      padding: 30px;
+      width: 312px;
+      border-radius: 35px;
+      overflow: hidden;
+      
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(145deg, rgba(135, 194, 50, 1) 0%, rgba(0, 0, 0, 1) 90%);
+        transition: opacity 0.5s ease;
+        z-index: 1;
+      }
+      &:hover::before {
+        opacity: 0;
+      }
+      
+      &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(312deg, rgba(135, 194, 50, 1) 0%, rgba(0, 0, 0, 1) 90%);
+        opacity: 0;
+        z-index: 2;
+        transition: opacity 0.5s ease;
+      }
+      
+      &:hover::after {
+        opacity: 1;
       }
     }
   }
