@@ -103,7 +103,7 @@ li {
       text-transform: capitalize;
       font-weight: 500;
     }
-    .heading {
+    .heading {  
       color: var(--text_color);
       font-size: 68px;
       font-family: "Montserrat", sans-serif;
