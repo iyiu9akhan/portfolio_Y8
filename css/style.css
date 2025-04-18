@@ -133,6 +133,8 @@ li {
       width: 627px;
       border-right: 2px solid var(--hero_color);
       border-bottom: 2px solid var(--hero_color);
+      border-bottom-right-radius: 12px;
+      border-bottom-left-radius: 12px;
     }
   }
 }
@@ -141,25 +143,20 @@ li {
 /* expertise section css starts here  */
 #expertise {
   .top {
-    justify-content: space-between;
     border-top: 5px solid var(--hero_color);
     border-radius: 30px;
     padding: 20px;
     margin-bottom: 50px;
-    .child {
-      font-family: var(--info_font);
-      &:first-letter {
-        text-transform: uppercase;
-      }
-      &:nth-child(1) {
-        order: 1;
+    font-family: var(--info_font);
+    .left {
+      .title {
         color: var(--hero_color);
         text-transform: capitalize;
         font-size: 20px;
         font-weight: 600;
+        margin-bottom: 12px;
       }
-      &:nth-child(2) {
-        order: 3;
+      .heading {
         font-size: 33px;
         font-weight: 800;
         color: var(--text_color);
@@ -168,15 +165,18 @@ li {
           color: var(--hero_color);
         }
       }
-      &:nth-child(3) {
-        order: 2;
-        font-size: 18px;
+    }
+    .right {
+      .info {
+        text-align: justify;
+        font-size: 17px;
         font-weight: 400;
         line-height: 26px;
         color: var(--text_color);
-      }
-      &:nth-child(4) {
-        order: 4;
+        margin-bottom: 30px;
+        &:first-letter {
+          text-transform: uppercase;
+        }
       }
     }
   }
