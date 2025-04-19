@@ -192,31 +192,6 @@ li {
       padding: 20px;
       width: 312px;
       border-radius: 15px;
-      overflow: hidden;
-      position: relative;
-      z-index: 2;
-      &:before {
-        content: "";
-        position: absolute;
-        bottom: 61px;
-        right: 0px;
-        height: 40px;
-        width: 40px;
-        background-color: transparent;
-        box-shadow: 11px 18px var(--bg_color);
-        border-bottom-right-radius: 15px;
-      }
-      &:after {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 66px;
-        height: 40px;
-        width: 40px;
-        background-color: transparent;
-        box-shadow: 16px 15px var(--bg_color);
-        border-bottom-right-radius: 15px;
-      }
       .service_img {
         height: 216px;
         width: 272px;
@@ -230,6 +205,13 @@ li {
         color: var(--text_color);
         text-align: justify;
       }
+      .info{
+        font-family: var(--heading_font);
+        font-size: 14px;
+        text-align: justify;
+        color: var(--text_color);
+        font-weight: 400;
+      }
       .learn_more {
         position: absolute;
         background-color: white;
@@ -238,11 +220,33 @@ li {
         outline: 6px solid var(--bg_color);
         z-index: 3;
         border-radius: 15px;
-        border: 2px solid var(--text_color);
+        border: 3px solid var(--text_color);
+        &:before {
+          content: "";
+          position: absolute;
+          bottom: 58px;
+          right: -3px;
+          height: 20px;
+          width: 40px;
+          background-color: transparent;
+          box-shadow: 16px 6px var(--bg_color);
+          border-bottom-right-radius: 15px;
+        }
+        &:after {
+          content: "";
+          position: absolute;
+          bottom: -3px;
+          left: -29px;
+          height: 40px;
+          width: 20px;
+          background-color: transparent;
+          box-shadow: 6px 18px var(--bg_color);
+          border-bottom-right-radius: 15px;
+        }
         &:hover {
           background-color: var(--bg_color);
-          /* border: 2px solid var(--hero_color); */
-          border: 2px solid rgba(134, 194, 50, 0.5);
+          border: 3px solid rgba(134, 194, 50, 0.5);
+          width: 75%;
         }
       }
     }
@@ -250,9 +254,8 @@ li {
 }
 /* expertise section css ends here  */
 
-
 /* latest projects css starts here  */
-#projects{
+#projects {
   .top {
     border-top: 5px solid var(--hero_color);
     border-radius: 30px;
