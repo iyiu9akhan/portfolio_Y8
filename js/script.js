@@ -1,4 +1,4 @@
-// header menu drop-down after scroll || ends here 
+// header menu drop-down after scroll || ends here
 window.addEventListener("scroll", function () {
   const header = document.querySelector("#header");
   const banner = document.querySelector("#banner");
@@ -10,4 +10,4 @@ window.addEventListener("scroll", function () {
     header.classList.remove("fixed");
   }
 });
-// header menu drop-down after scroll || starts here 
+// header menu drop-down after scroll || starts here
