@@ -60,8 +60,36 @@ li {
 /* common css ends here  */
 
 /* header section css starts here  */
+#header.fixed {
+  position: fixed;
+  /* top: 0;
+  left: 0;
+  right: 0; */
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+  padding: 15px 0;
+
+  .left, .right{
+    display: none;
+  }
+.middle{
+  background-color: #1A1A1A;
+  border: 1px solid var(--hero_color);
+}
+  .row{
+    justify-content: center !important;
+  }
+}
 #header {
-  padding: 30px 0 60px;
+  padding: 30px 0 30px;
+  position: absolute;
+  /* margin-bottom: 124px; */
+  /* background-color: var(--bg_color); */
+  top: 0;
+  width: 100%;
+  transition: top 0.5s ease, position 0.5s ease;
 
   .left {
     .header_logo {
@@ -97,6 +125,8 @@ li {
 
 /* banner section css starts here*/
 #banner {
+  /* margin-top: 30px; */
+  margin-top: 172px;
   margin-bottom: 150px;
   .left {
     .title {
@@ -145,6 +175,7 @@ li {
 
 /* expertise section css starts here  */
 #expertise {
+  /* margin-top: 245px; */
   margin-bottom: 150px;
   .top {
     border-top: 5px solid var(--hero_color);
@@ -204,13 +235,15 @@ li {
         font-family: var(--info_font);
         color: var(--text_color);
         text-align: justify;
+        margin-bottom: 2px;
       }
-      .info{
+      .info {
         font-family: var(--heading_font);
         font-size: 14px;
         text-align: justify;
         color: var(--text_color);
         font-weight: 400;
+        line-height: 20px;
       }
       .learn_more {
         position: absolute;
@@ -231,6 +264,7 @@ li {
           background-color: transparent;
           box-shadow: 16px 6px var(--bg_color);
           border-bottom-right-radius: 15px;
+          pointer-events: none;
         }
         &:after {
           content: "";
@@ -242,6 +276,7 @@ li {
           background-color: transparent;
           box-shadow: 6px 18px var(--bg_color);
           border-bottom-right-radius: 15px;
+          pointer-events: none;
         }
         &:hover {
           background-color: var(--bg_color);
