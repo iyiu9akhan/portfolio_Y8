@@ -31,6 +31,7 @@ li {
 }
 :root {
   --bg_color: #000000;
+  /* --bg_color: #1E1E1E; */
   --hero_color: #87c232;
   --text_color: #ffffff;
   --link_color: #0000ff;
@@ -186,7 +187,7 @@ li {
   .bottom {
     .child {
       position: relative;
-      background-color: rgba(134, 194, 50, 0.7);
+      background-color: rgba(134, 194, 50, 0.5);
       height: 450px;
       padding: 20px;
       width: 312px;
@@ -202,7 +203,7 @@ li {
         height: 40px;
         width: 40px;
         background-color: transparent;
-        box-shadow: 11px 18px #000;
+        box-shadow: 11px 18px var(--bg_color);
         border-bottom-right-radius: 15px;
       }
       &:after {
@@ -213,14 +214,14 @@ li {
         height: 40px;
         width: 40px;
         background-color: transparent;
-        box-shadow: 16px 15px #000;
+        box-shadow: 16px 15px var(--bg_color);
         border-bottom-right-radius: 15px;
       }
       .service_img {
         height: 216px;
         width: 272px;
         border-radius: 15px;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
       }
       .title {
         font-size: 29px;
@@ -240,10 +241,55 @@ li {
         border: 2px solid var(--text_color);
         &:hover {
           background-color: var(--bg_color);
-          border: 2px solid var(--hero_color);
+          /* border: 2px solid var(--hero_color); */
+          border: 2px solid rgba(134, 194, 50, 0.5);
         }
       }
     }
   }
 }
 /* expertise section css ends here  */
+
+
+/* latest projects css starts here  */
+#projects{
+  .top {
+    border-top: 5px solid var(--hero_color);
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 50px;
+    font-family: var(--info_font);
+    .left {
+      .title {
+        color: var(--hero_color);
+        text-transform: capitalize;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 12px;
+      }
+      .heading {
+        font-size: 30px;
+        font-weight: 800;
+        color: var(--text_color);
+        text-transform: capitalize;
+        span {
+          color: var(--hero_color);
+        }
+      }
+    }
+    .right {
+      .info {
+        text-align: justify;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 26px;
+        color: var(--text_color);
+        margin-bottom: 30px;
+        &:first-letter {
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
+/* latest projects css ends here  */
