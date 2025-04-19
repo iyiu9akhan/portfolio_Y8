@@ -122,7 +122,6 @@ li {
 
 /* banner section css starts here*/
 #banner {
-  /* margin-top: 30px; */
   margin-top: 172px;
   margin-bottom: 150px;
   .left {
@@ -172,7 +171,6 @@ li {
 
 /* expertise section css starts here  */
 #expertise {
-  /* margin-top: 245px; */
   margin-bottom: 150px;
   .top {
     border-top: 5px solid var(--hero_color);
