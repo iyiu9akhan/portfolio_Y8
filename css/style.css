@@ -71,14 +71,16 @@ li {
   transition: all 0.5s ease-in-out;
   padding: 15px 0;
 
-  .left, .right{
+  .left,
+  .right {
     display: none;
   }
-.middle{
-  background-color: #1A1A1A;
-  border: 1px solid var(--hero_color);
-}
-  .row{
+  .middle {
+    background-color: #1a1a1a;
+    border: 2px solid var(--hero_color);
+    outline: 10px solid var(--bg_color);
+  }
+  .row {
     justify-content: center !important;
   }
 }
