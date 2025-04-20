@@ -125,7 +125,6 @@ li {
 /* banner section css starts here*/
 #banner {
   margin-top: 172px;
-  /* margin-bottom: 150px; */
   .left {
     .title {
       font-size: 16px;
@@ -165,15 +164,12 @@ li {
     height: 610px;
     .banner_img {
       height: 600px;
-      /* width: 627px; */
       border-right: 3px solid var(--hero_50prcnt);
       border-bottom: 3px solid var(--hero_50prcnt);
       border-bottom-right-radius: 12px;
       border-bottom-left-radius: 12px;
-      /* transform: rotate(3deg); */
       transition: 0.3s;
       &:hover {
-        /* transform: rotate(0); */
         height: 610px;
         border-bottom: 3px solid var(--hero_color);
         border-right: 3px solid var(--hero_color);
@@ -299,7 +295,6 @@ li {
   }
   .bottom {
     .child {
-      /* display: flex; */
       height: 185px;
       width: 180px;
       .inside {
@@ -315,7 +310,6 @@ li {
         gap: 15px;
         i {
           transition: all linear 0.2s;
-          /* transition: color 0.3s linear;  */
           font-size: 70px;
           color: rgba(255, 255, 255, 0.3);
           height: 72px;
@@ -323,7 +317,6 @@ li {
         .percent {
           color: var(--hero_40prcnt);
           transition: all linear 0.2s;
-          /* height: 50%; */
         }
         &:hover {
           border: 2px solid var(--hero_color);
