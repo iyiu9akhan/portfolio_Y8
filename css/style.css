@@ -363,7 +363,7 @@ li {
         color: #61dafb;
         font-size: 73px;
       }
-      h4{
+      h4 {
         color: var(--hero_color);
         text-transform: capitalize;
         font-family: var(--info_font);
