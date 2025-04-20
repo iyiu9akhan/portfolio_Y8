@@ -338,30 +338,32 @@ li {
           font-weight: 800;
           font-size: 40px;
         }
-      }
-      &:nth-child(1):hover i {
-        color: #e34f26;
-        font-size: 73px;
-      }
-      &:nth-child(2):hover i {
-        color: #1572b6;
-        font-size: 73px;
-      }
-      &:nth-child(3):hover i {
-        color: #7952b3;
-        font-size: 73px;
-      }
-      &:nth-child(4):hover i {
-        color: #f7df1e;
-        font-size: 73px;
-      }
-      &:nth-child(5):hover i {
-        color: #ffffff;
-        font-size: 73px;
-      }
-      &:nth-child(6):hover i {
-        color: #61dafb;
-        font-size: 73px;
+        &:hover {
+          .child:nth-child(1) & i {
+            color: #e34f26;
+            font-size: 73px;
+          }
+          .child:nth-child(2) & i {
+            color: #1572b6;
+            font-size: 73px;
+          }
+          .child:nth-child(3) & i {
+            color: #7952b3;
+            font-size: 73px;
+          }
+          .child:nth-child(4) & i {
+            color: #f7df1e;
+            font-size: 73px;
+          }
+          .child:nth-child(5) & i {
+            color: #ffffff;
+            font-size: 73px;
+          }
+          .child:nth-child(6) & i {
+            color: #61dafb;
+            font-size: 73px;
+          }
+        }
       }
       h4 {
         color: var(--hero_color);
