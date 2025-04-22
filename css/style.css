@@ -415,6 +415,9 @@ li {
   .bottom {
     .heading_nd_img {
       margin-bottom: 20px;
+     .left{
+      display: grid;
+      align-content: space-between;
       .title {
         span{
           color: var(--hero_color);
@@ -429,10 +432,33 @@ li {
         font-family: var(--info_font);
         font-weight: 600;
         color: var(--text_color);
+        margin-bottom:15px;
         span{
           color: var(--hero_color);
         }
       }
+      .keyPoints{
+        ul{
+          height: 100%;
+        }
+        li{
+          list-style-type: disc;
+          color: var(--text_color);
+          margin-left: 18px;
+          margin-bottom: 10px;
+          font-size: 17px;
+          font-family: var(--info_font);
+          font-weight: 500;
+
+          &:last-child{
+            margin-bottom: 0;
+          }
+        }
+        li::marker{
+          color: var(--hero_color);
+        }
+      }
+     }
       
     }
     .right {
@@ -440,7 +466,7 @@ li {
       /* height: 434px; */
       border-radius: 15px;
       img {
-        width: 760px;
+        width: 770px;
         height: 428px;
         border-radius: 15px;
       }
