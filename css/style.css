@@ -415,51 +415,50 @@ li {
   .bottom {
     .heading_nd_img {
       margin-bottom: 20px;
-     .left{
-      display: grid;
-      align-content: space-between;
-      .title {
-        span{
-          color: var(--hero_color);
-        }
-        font-size: 18px;
-        font-family: var(--info_font);
-        color: var(--text_color);
-        font-weight: 500px;
-      }
-      .heading{
-        font-size: 41px;
-        font-family: var(--info_font);
-        font-weight: 600;
-        color: var(--text_color);
-        margin-bottom:15px;
-        span{
-          color: var(--hero_color);
-        }
-      }
-      .keyPoints{
-        ul{
-          height: 100%;
-        }
-        li{
-          list-style-type: disc;
-          color: var(--text_color);
-          margin-left: 18px;
-          margin-bottom: 10px;
-          font-size: 17px;
+      .left {
+        display: grid;
+        align-content: space-between;
+        .title {
+          span {
+            color: var(--hero_color);
+          }
+          font-size: 18px;
           font-family: var(--info_font);
-          font-weight: 500;
-
-          &:last-child{
-            margin-bottom: 0;
+          color: var(--text_color);
+          font-weight: 500px;
+        }
+        .heading {
+          font-size: 41px;
+          font-family: var(--info_font);
+          font-weight: 600;
+          color: var(--text_color);
+          margin-bottom: 15px;
+          span {
+            color: var(--hero_color);
           }
         }
-        li::marker{
-          color: var(--hero_color);
+        .keyPoints {
+          ul {
+            height: 100%;
+          }
+          li {
+            list-style-type: disc;
+            color: var(--text_color);
+            margin-left: 18px;
+            margin-bottom: 10px;
+            font-size: 17px;
+            font-family: var(--info_font);
+            font-weight: 500;
+
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+          li::marker {
+            color: var(--hero_color);
+          }
         }
       }
-     }
-      
     }
     .right {
       border-radius: 15px;
@@ -469,17 +468,16 @@ li {
         border-radius: 15px;
       }
     }
-    .info{
+    .info {
       text-align: justify;
       font-size: 16px;
       font-family: var(--info_font);
       font-weight: 400;
       color: var(--text_color);
-      span{
+      span {
         color: var(--hero_color);
       }
     }
   }
 }
 /* latest projects css ends here  */
-
