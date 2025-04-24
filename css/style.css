@@ -505,3 +505,50 @@ li {
   }
 }
 /* latest projects css ends here  */
+
+
+/* insights section css starts here  */
+#insights {
+  padding-top: 88px;
+
+  .top {
+    border-top: 5px solid var(--hero_color);
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 15px;
+    font-family: var(--info_font);
+    .left {
+      .title {
+        color: var(--hero_color);
+        text-transform: capitalize;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 12px;
+      }
+      .heading {
+        font-size: 30px;
+        font-weight: 800;
+        color: var(--text_color);
+        text-transform: capitalize;
+        span {
+          color: var(--hero_color);
+        }
+      }
+    }
+    .right {
+      .info {
+        text-align: justify;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 26px;
+        color: var(--text_color);
+        margin-bottom: 30px;
+        &:first-letter {
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+  
+}
+/* insights section css ends here  */
