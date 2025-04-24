@@ -375,7 +375,8 @@ li {
 /* latest projects css starts here  */
 #projects {
   .carousel-indicators{
-    bottom: -35px;
+    /* bottom: -35px; */
+    margin: 0;
   }
   .carousel-indicators [data-bs-target]{
     height: 8px;
@@ -400,7 +401,7 @@ li {
     border-top: 5px solid var(--hero_color);
     border-radius: 30px;
     padding: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
     font-family: var(--info_font);
     .left {
       .title {
@@ -496,6 +497,7 @@ li {
       font-family: var(--info_font);
       font-weight: 400;
       color: var(--text_color);
+      margin-bottom: 30px;
       span {
         color: var(--hero_color);
       }
