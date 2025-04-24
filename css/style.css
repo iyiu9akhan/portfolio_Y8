@@ -374,24 +374,25 @@ li {
 
 /* latest projects css starts here  */
 #projects {
-  .carousel-indicators{
+  .carousel-indicators {
     /* bottom: -35px; */
     margin: 0;
   }
-  .carousel-indicators [data-bs-target]{
+  .carousel-indicators [data-bs-target] {
     height: 8px;
     width: 25px;
     border-radius: 15px;
     border: none;
-    transition: all linear .1s;
+    transition: all linear 0.1s;
   }
-  .carousel-indicators .active{
+  .carousel-indicators .active {
     background-color: var(--hero_color);
     height: 8px;
     width: 50px;
     border-radius: 15px;
   }
-  .carousel-control-prev , .carousel-control-next{
+  .carousel-control-prev,
+  .carousel-control-next {
     display: none;
   }
 
@@ -506,7 +507,6 @@ li {
 }
 /* latest projects css ends here  */
 
-
 /* insights section css starts here  */
 #insights {
   padding-top: 88px;
@@ -549,6 +549,5 @@ li {
       }
     }
   }
-  
 }
 /* insights section css ends here  */
