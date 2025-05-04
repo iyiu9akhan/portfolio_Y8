@@ -182,7 +182,6 @@ li {
 /* expertise section css starts here  */
 #expertise {
   padding-top: 88px;
-  /* margin-bottom: 150px; */
   .top {
     border-top: 5px solid var(--hero_color);
     border-radius: 30px;
@@ -295,7 +294,6 @@ li {
   }
   .bottom {
     .child {
-      /* height: 185px; */
       width: 180px;
       .inside {
         border-radius: 15px;
@@ -375,7 +373,6 @@ li {
 /* latest projects css starts here  */
 #projects {
   .carousel-indicators {
-    /* bottom: -35px; */
     margin: 0;
   }
   .carousel-indicators [data-bs-target] {
